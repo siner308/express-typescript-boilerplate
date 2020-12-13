@@ -1,0 +1,12 @@
+version: '3.7'
+services:
+  celeb-backend:
+    build:
+      dockerfile: ./Dockerfile
+      context: .
+    restart: always
+    container_name: celeb-backend
+    volumes:
+    - ./.env:/app/.env
+    ports:
+      - "3000:3000"
