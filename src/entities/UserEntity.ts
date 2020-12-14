@@ -3,11 +3,12 @@ import {
   CreateDateColumn,
   UpdateDateColumn,
   Entity,
-  PrimaryGeneratedColumn /*OneToMany*/,
+  PrimaryGeneratedColumn,
+  BaseEntity /*OneToMany*/,
 } from 'typeorm';
 
-@Entity()
-export class User {
+@Entity({ name: 'user' })
+export class User extends BaseEntity {
   @PrimaryGeneratedColumn()
   public id: number;
 
@@ -34,8 +35,9 @@ export class User {
     name: 'profile_img_url',
     length: 500,
     unique: true,
+    nullable: true,
   })
-  public profileImgURL: string;
+  public profileImgURL?: string;
 
   /**
    * set now when data created

@@ -8,6 +8,7 @@ const dbConfig: MysqlConnectionOptions = {
   host: env.db.host,
   port: env.db.port,
   username: env.db.username,
+  charset: 'utf8mb4_unicode_ci',
   password: env.db.password,
   database: env.db.name,
   entities: ['src/entities/*.ts'],

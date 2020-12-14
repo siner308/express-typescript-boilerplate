@@ -1,11 +1,11 @@
 version: '3.7'
 services:
-  celeb-backend:
+  express:
     build:
       dockerfile: ./Dockerfile
       context: .
     restart: always
-    container_name: celeb-backend
+    container_name: express
     volumes:
     - ./.env:/app/.env
     ports:

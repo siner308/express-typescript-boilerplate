@@ -5,10 +5,13 @@ import session from 'express-session';
 import Sentry from '@sentry/node';
 import Tracing from '@sentry/tracing';
 import cors from 'cors';
+import swaggerUi from 'swagger-ui-express';
+import { useExpressServer } from 'routing-controllers';
 
 import env from './env';
-import router from './router';
 import initDB from './database';
+import UserController from '../modules/users/UserController';
+import { swaggerFile } from './swagger';
 
 /**
  * Create Express Server
@@ -65,7 +68,23 @@ app.use(compression()); // support compressed response size
 app.use(bodyParser.json(/* {limit: '100MB'} */));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cors());
-app.use('/', router);
+
+useExpressServer(app, {
+  controllers: [UserController],
+  validation: true,
+});
+
+/**
+ * Swagger Configuration
+ */
+if (env.app.nodeEnv !== 'production') {
+  app.use(
+    '/doc',
+    (req: express.Request, res: express.Response, next: express.NextFunction) => next(),
+    swaggerUi.serve,
+    swaggerUi.setup(swaggerFile),
+  );
+}
 
 /**
  * Error Handler
