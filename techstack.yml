@@ -1,7 +1,8 @@
 repo_name: siner308/express-typescript-boilerplate
 report_id: f5ffb92590735f1edbd3ddba7b1abdc4
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-15T10:24:00+00:00'
+timestamp: '2024-01-05T08:40:50+00:00'
 requested_by: siner308
 provider: github
 branch: main
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/siner308/express-typescript-boilerplate
   detection_source: Repo Metadata
 - name: TypeScript
   description: A superset of JavaScript that compiles to clean JavaScript output
@@ -26,6 +28,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/siner308/express-typescript-boilerplate
   detection_source: Repo Metadata
 - name: ExpressJS
   description: Sinatra inspired web development framework for node.js -- insanely
@@ -38,7 +41,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Microframeworks (Backend)
   image_url: https://img.stackshare.io/service/1163/hashtag.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/siner308/express-typescript-boilerplate/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: siner308
   last_updated_on: 2020-12-14 18:46:07.000000000 Z
@@ -52,8 +55,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
-  detection_source_url: Dockerfile
-  detection_source: package.json
+  detection_source_url: https://github.com/siner308/express-typescript-boilerplate/blob/main/Dockerfile
+  detection_source: Dockerfile
   last_updated_by: siner308
   last_updated_on: 2020-12-13 14:01:06.000000000 Z
 - name: TypeORM
@@ -66,7 +69,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Microframeworks (Backend)
   image_url: https://img.stackshare.io/service/7419/20165699.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/siner308/express-typescript-boilerplate/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: siner308
   last_updated_on: 2020-12-13 14:01:06.000000000 Z
@@ -79,7 +82,7 @@ tools:
   category: Data Stores
   sub_category: Databases
   image_url: https://img.stackshare.io/service/1025/logo-mysql-170x170.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/siner308/express-typescript-boilerplate/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: siner308
   last_updated_on: 2020-12-13 14:01:06.000000000 Z
@@ -92,6 +95,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Virtual Machine Platforms & Containers
   image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/siner308/express-typescript-boilerplate
   detection_source: Repo Metadata
 - name: Dotenv
   description: Loads environment variables from .env for Nodejs projects
@@ -102,6 +106,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Server Configuration and Automation
   image_url: https://img.stackshare.io/service/8067/default_90dcb1286af7685c68df319c764b80704df1155b.png
+  detection_source_url: https://github.com/siner308/express-typescript-boilerplate/blob/main/package.json
   detection_source: package.json
   last_updated_by: siner308
   last_updated_on: 2020-12-13 14:01:06.000000000 Z
@@ -114,6 +119,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/siner308/express-typescript-boilerplate/blob/main/package.json
   detection_source: package.json
   last_updated_by: siner308
   last_updated_on: 2020-12-13 14:01:06.000000000 Z
@@ -125,6 +131,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/siner308/express-typescript-boilerplate
   detection_source: Repo Metadata
 - name: Jest
   description: Painless JavaScript Unit Testing
@@ -136,7 +143,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/830/jest.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/siner308/express-typescript-boilerplate/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: siner308
   last_updated_on: 2020-12-13 14:01:06.000000000 Z
@@ -150,7 +157,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/siner308/express-typescript-boilerplate/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: siner308
   last_updated_on: 2020-12-13 14:01:06.000000000 Z
@@ -162,6 +169,7 @@ tools:
   category: Monitoring
   sub_category: Exception Monitoring
   image_url: https://img.stackshare.io/service/191/default_9262326592c97828a2a4299dec085a3674dd05f4.png
+  detection_source_url: https://github.com/siner308/express-typescript-boilerplate/blob/main/package.json
   detection_source: package.json
   last_updated_by: siner308
   last_updated_on: 2020-12-13 14:01:06.000000000 Z
@@ -175,7 +183,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/no-img-open-source.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/siner308/express-typescript-boilerplate/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: siner308
   last_updated_on: 2020-12-13 14:01:06.000000000 Z
@@ -189,7 +197,7 @@ tools:
   category: Monitoring
   sub_category: node.js Application Monitoring
   image_url: https://img.stackshare.io/service/5577/preview.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/siner308/express-typescript-boilerplate/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: siner308
   last_updated_on: 2020-12-14 18:46:07.000000000 Z
@@ -201,6 +209,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/siner308/express-typescript-boilerplate/blob/main/package.json
   detection_source: package.json
   last_updated_by: siner308
   last_updated_on: 2020-12-13 14:01:06.000000000 Z
@@ -213,7 +222,7 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/service/2438/lodash.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/siner308/express-typescript-boilerplate/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: siner308
   last_updated_on: 2020-12-13 14:01:06.000000000 Z
@@ -226,12 +235,14 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/siner308/express-typescript-boilerplate
   detection_source: Repo Metadata
 - name: routing-controllers
   website_url: https://github.com/typestack/routing-controllers
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/9406/24602613.png
+  detection_source_url: https://github.com/siner308/express-typescript-boilerplate/blob/main/package.json
   detection_source: package.json
   last_updated_by: siner308
   last_updated_on: 2020-12-14 18:46:07.000000000 Z
@@ -245,7 +256,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18428/default_9499465ee49aaffadf126149b962e9838bc4a993.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/siner308/express-typescript-boilerplate/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: siner308
   last_updated_on: 2020-12-14 18:46:07.000000000 Z
@@ -259,7 +270,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18206/default_dfaa3c3f19039c5391ee1a13529324eaa2685e7f.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/siner308/express-typescript-boilerplate/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: siner308
   last_updated_on: 2020-12-14 18:46:07.000000000 Z
@@ -273,7 +284,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17290/default_b2015e9577d171c4c3f12c3c8d253c01fe63ba8d.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/siner308/express-typescript-boilerplate/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: siner308
   last_updated_on: 2020-12-13 14:01:06.000000000 Z
@@ -287,7 +298,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18757/default_c692c805cf2082b8bc09a2771d585507f0f7bc36.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/siner308/express-typescript-boilerplate/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: siner308
   last_updated_on: 2020-12-14 18:46:07.000000000 Z
@@ -301,7 +312,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15840/default_004658cda9b38934f2871435e9dc15608c86e8be.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/siner308/express-typescript-boilerplate/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: siner308
   last_updated_on: 2020-12-13 14:01:06.000000000 Z
@@ -315,7 +326,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15945/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/siner308/express-typescript-boilerplate/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: siner308
   last_updated_on: 2020-12-13 14:01:06.000000000 Z
@@ -329,7 +340,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16805/default_31a4e0e11d348225088320f3a5c5ea6fa49c27ad.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/siner308/express-typescript-boilerplate/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: siner308
   last_updated_on: 2020-12-13 14:01:06.000000000 Z
@@ -343,7 +354,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/siner308/express-typescript-boilerplate/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: siner308
   last_updated_on: 2020-12-13 14:01:06.000000000 Z
@@ -357,7 +368,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/siner308/express-typescript-boilerplate/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: siner308
   last_updated_on: 2020-12-13 14:01:06.000000000 Z
@@ -371,7 +382,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16018/default_7a88bebb451873cc63bd99007de5bd3bb8ef85de.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/siner308/express-typescript-boilerplate/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: siner308
   last_updated_on: 2020-12-13 14:01:06.000000000 Z
@@ -392,7 +403,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15906/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/siner308/express-typescript-boilerplate/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: siner308
   last_updated_on: 2020-12-13 14:01:06.000000000 Z
@@ -407,7 +418,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17651/default_eb9caf7d7fb4d231f7e3b04a8c1fbef6fcd9fd73.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/siner308/express-typescript-boilerplate/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: siner308
   last_updated_on: 2020-12-14 18:46:07.000000000 Z
@@ -422,7 +433,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17583/default_661ab15cb9ea1663765f3e16ee70a1d2d50118d1.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/siner308/express-typescript-boilerplate/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: siner308
   last_updated_on: 2020-12-14 18:46:07.000000000 Z
@@ -443,7 +454,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16187/default_9a7a7dcd69c12c746dc4000dc4d1b75758079c9f.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/siner308/express-typescript-boilerplate/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: siner308
   last_updated_on: 2020-12-14 18:46:07.000000000 Z
@@ -457,7 +468,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16165/default_41f04716a804e853d5c38a5b81ee0ea8a842ad82.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/siner308/express-typescript-boilerplate/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: siner308
   last_updated_on: 2020-12-13 14:01:06.000000000 Z
@@ -471,7 +482,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15879/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/siner308/express-typescript-boilerplate/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: siner308
   last_updated_on: 2020-12-14 18:46:07.000000000 Z
@@ -485,7 +496,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15806/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/siner308/express-typescript-boilerplate/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: siner308
   last_updated_on: 2020-12-13 14:01:06.000000000 Z
@@ -499,7 +510,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15896/default_6e6e1d6bb189c8bb26c6410618bd597979578f39.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/siner308/express-typescript-boilerplate/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: siner308
   last_updated_on: 2020-12-13 14:01:06.000000000 Z
@@ -513,7 +524,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/siner308/express-typescript-boilerplate/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: siner308
   last_updated_on: 2020-12-14 18:46:07.000000000 Z
@@ -534,7 +545,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16239/default_180418c6fa6cdb8f7a3500f84a8fedb884fcb3fa.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/siner308/express-typescript-boilerplate/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: siner308
   last_updated_on: 2020-12-14 18:46:07.000000000 Z
@@ -548,7 +559,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16421/default_23e0dabcd0197f0c1f0a41268f8ca3f7e8b1f1e2.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/siner308/express-typescript-boilerplate/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: siner308
   last_updated_on: 2020-12-13 14:01:06.000000000 Z
@@ -563,7 +574,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15864/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/siner308/express-typescript-boilerplate/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: siner308
   last_updated_on: 2020-12-13 14:01:06.000000000 Z
@@ -577,7 +588,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15830/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/siner308/express-typescript-boilerplate/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: siner308
   last_updated_on: 2020-12-14 18:46:07.000000000 Z
